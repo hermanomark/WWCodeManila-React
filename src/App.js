@@ -14,6 +14,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "components/Home/Home";
 import Navbar from "components/Elements/Navbar/Navbar";
 import About from "components/About/About";
+import Profile from "components/Profile/Profile";
 import ProfileCard from "components/Profile/ProfileCard";
 import ProfileForm from "components/Profile/ProfileForm";
 class App extends Component {
@@ -25,6 +26,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />{" "}
+            <Route exact path="/profile" component={Profile} />
             <Route exact path="/profile-card" component={ProfileCard} />
             <Route exact path="/profile-form" component={ProfileForm} />
           </Switch>

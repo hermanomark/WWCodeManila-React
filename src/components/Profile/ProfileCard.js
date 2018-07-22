@@ -16,11 +16,12 @@
 import React from "react";
 import PageContent from "components/Elements/PageContent";
 
-const ProfileCard = () => {
+const ProfileCard = ({ headerIsHidden }) => {
   return (
     <PageContent
       title="My Profile Card"
       description="Our first React component!"
+      headerIsHidden={headerIsHidden}
     >
       <div className="columns is-centered">
         <div className="column is-narrow is-half">
