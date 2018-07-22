@@ -41,7 +41,7 @@
     "project": "Pokedex",
     "description": "Get data from API using axios",
     "imageUrl": "https://cdn.worldvectorlogo.com/logos/react.svg",
-    "link": "/axios",
+    "link": "/pokedex",
     "isHidden": false
   }
 ]

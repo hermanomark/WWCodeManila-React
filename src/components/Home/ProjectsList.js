@@ -4,7 +4,7 @@ import ProjectCard from "components/Home/ProjectCard";
 
 const ProjectsList = () => (
   <React.Fragment>
-    <section className="container">
+    <div className="container">
       <h3 className="title has-text-centered">Projects</h3>
       <div className="box-container">
         {projects.map((project, index) => (
@@ -19,7 +19,7 @@ const ProjectsList = () => (
           />
         ))}
       </div>
-    </section>
+    </div>
   </React.Fragment>
 );
 

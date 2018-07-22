@@ -14,6 +14,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "components/Home/Home";
 import Navbar from "components/Elements/Navbar/Navbar";
 import About from "components/About/About";
+import Pokedex from "components/Pokedex/Pokedex";
 import Profile from "components/Profile/Profile";
 import ProfileCard from "components/Profile/ProfileCard";
 import ProfileForm from "components/Profile/ProfileForm";
@@ -29,6 +30,7 @@ class App extends Component {
             <Route exact path="/profile" component={Profile} />
             <Route exact path="/profile-card" component={ProfileCard} />
             <Route exact path="/profile-form" component={ProfileForm} />
+            <Route exact path="/pokedex" component={Pokedex} />
           </Switch>
         </div>
       </BrowserRouter>
