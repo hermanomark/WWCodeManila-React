@@ -1,3 +1,5 @@
+## My Copy of the Project :)
+
 ## Women Who Code Manila - React Study Group
 
 The React study group is held every third Saturday of the month. Please check our [MeetUp Page](https://www.meetup.com/Women-Who-Code-Manila/) for updates.
